@@ -1,4 +1,4 @@
-# SixArm.com » Ruby » Date #age_in_years and #age_in_days methods
+# SixArm.com » Ruby » <br>Date age methods
 
 [![Code Climate](https://codeclimate.com/github/SixArm/sixarm_ruby_date_age.png)](https://codeclimate.com/github/SixArm/sixarm_ruby_date_age)
 
@@ -20,13 +20,14 @@ Example:
     date.age_in_days #=> 400 
 
 
-Rxample of custom dates:
+Example of custom dates:
 
-    start = Date.new(1980, 10, 31)
-    stop = Date.new(2011, 12, 31)
+    a = Date.new(1980, 10, 31)
+    b = Date.new(2011, 12, 31)
 
-    start.age_in_days_on(stop) => 11383
-    start.age_in_years_on(stop) => 31
+    a.age_in_days_on(b) => 11383
+ 
+    a.age_in_years_on(b) => 31
 
 
 ## Install quickstart
