@@ -1,5 +1,6 @@
 # SixArm.com » Ruby » <br>Date age methods
 
+[![Build Status](https://travis-ci.org/SixArm/sixarm_ruby_date_age.png)](https://travis-ci.org/SixArm/sixarm_ruby_date_age)
 [![Code Climate](https://codeclimate.com/github/SixArm/sixarm_ruby_date_age.png)](https://codeclimate.com/github/SixArm/sixarm_ruby_date_age)
 
 * Doc: <http://sixarm.com/sixarm_ruby_date_age/doc>
