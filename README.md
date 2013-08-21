@@ -22,12 +22,12 @@ Example:
 
 Example of custom dates:
 
-    a = Date.new(1980, 10, 31)
+    a = Date.new(2000, 10, 31)
     b = Date.new(2011, 12, 31)
 
-    a.age_in_days_on(b) => 11383
+    a.age_in_days_on(b) => 4078
  
-    a.age_in_years_on(b) => 31
+    a.age_in_years_on(b) => 11
 
 
 ## Install quickstart
@@ -38,7 +38,7 @@ Install:
 
 Bundler:
 
-    gem "sixarm_ruby_date_age", "~>1.1.0"
+    gem "sixarm_ruby_date_age", "~>1.1.2"
 
 Require:
 
@@ -60,7 +60,8 @@ To install with high security:
 
 ## Changes
 
-* 2012-08-20 1.1.0 Add Code Climate
+* 2012-08-20 1.1.2 Upgrade #age_in_years to handle negative years
+* 2012-08-19 1.1.1 Move to Minitest Spec
 * 1.1.0 Add #age_in_days
 * 1.0.0 Original
 
@@ -91,4 +92,4 @@ This license is for the included software that is created by SixArm;
 some of the included software may have its own licenses, copyrights, 
 authors, etc. and these do take precedence over the SixArm license.
 
-Copyright (c) 2005-2012 Joel Parker Henderson
+Copyright (c) 2005-2013 Joel Parker Henderson

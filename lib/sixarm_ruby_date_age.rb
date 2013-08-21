@@ -27,9 +27,9 @@ class Date
   #   new_years_eve = Date.new(2011,12,31)
   #   date.age_in_days(new_years_eve) => 11383
 
-  def age_in_days(compare_date=Date.today)
+  def age_in_days(compare_date = Date.today)
     (compare_date.is_a? Date) or raise ArgumentError, "compare_date must be a date"
-    (compare_date-self).to_i
+    (compare_date - self).to_i
   end
 
   alias :age_in_days_on :age_in_days 
@@ -39,7 +39,10 @@ class Date
   #
   # @example
   #
-  #   date=Date.new(1980,10,31)
+  #   y = Date.today.year
+  #   m = Date.today.month
+  #   d = Date.today.mday
+  #   date = Date.new(y - 30, m, day)
   #   date.age_in_years => 30
   #
   # @example of custom dates
@@ -55,11 +58,12 @@ class Date
   #   new_years_eve = Date.new(2011,12,31)
   #   date.age_years(new_years_eve) => 31  # after the birthday is one year older
 
-  def age_in_years(compare_date=Date.today)
+  def age_in_years(compare_date = Date.today)
     (compare_date.is_a? Date) or raise ArgumentError, "compare_date must be a date"
-    age=compare_date.year-year
-    compare_month = compare_date.month
-    age-=1 if compare_month < month or (compare_month==month and compare_date.day < day)
+    return 0 if self == compare_date
+    age = compare_date.year - self.year
+    min, max = [self, compare_date].sort
+    age -= 1 if max.month < min.month or (max.month == min.month and max.day < min.day)
     age
   end
 
