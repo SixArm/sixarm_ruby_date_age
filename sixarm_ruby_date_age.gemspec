@@ -3,7 +3,7 @@
 Gem::Specification.new do |s|
 
   s.name              = "sixarm_ruby_date_age"
-  s.summary           = "SixArm.com » Ruby » Date age methods"
+  s.summary           = "SixArm.com → Ruby → Date age methods"
   s.description       = "Provide Date #age_in_days, #age_in_years"
   s.version           = "1.1.0"
 
