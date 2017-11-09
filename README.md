@@ -1,6 +1,6 @@
 # SixArm.com → Ruby → <br>Date age methods
 
-<!--HEADER-OPEN-->
+<!--header-open-->
 
 [![Gem Version](https://badge.fury.io/rb/sixarm_ruby_date_age.svg)](http://badge.fury.io/rb/sixarm_ruby_date_age)
 [![Build Status](https://travis-ci.org/SixArm/sixarm_ruby_date_age.png)](https://travis-ci.org/SixArm/sixarm_ruby_date_age)
@@ -13,7 +13,7 @@
 * Contact: Joel Parker Henderson, <joel@sixarm.com>
 * Project: [Changes](CHANGES.md), [License](LICENSE.md), [Contributing](CONTRIBUTING.md).
 
-<!--HEADER-SHUT-->
+<!--header-shut-->
 
 ## Introduction
 
@@ -38,7 +38,7 @@ Example of custom dates:
     a.age_in_years_on(b) => 11
 
 
-<!--INSTALL-OPEN-->
+<!--install-opent-->
 
 ## Install
 
@@ -58,4 +58,4 @@ To require the gem in your code:
 
     require 'sixarm_ruby_date_age'
 
-<!--INSTALL-SHUT-->
+<!--install-shut-->
