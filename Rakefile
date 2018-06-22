@@ -11,3 +11,13 @@ end
 
 
 
+task :default => [:test]
+task :default => [:test]
+task :default => [:test]
+task :default => [:test]
+task :default => [:test]
+task :default => [:test]
+task :default => [:test]
+task :default => [:test]
+task :default => [:test]
+task :default => [:test]
