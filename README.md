@@ -4,9 +4,9 @@
 
 [![Gem Version](https://badge.fury.io/rb/sixarm_ruby_date_age.svg)](http://badge.fury.io/rb/sixarm_ruby_date_age)
 [![Build Status](https://travis-ci.org/SixArm/sixarm_ruby_date_age.png)](https://travis-ci.org/SixArm/sixarm_ruby_date_age)
-[![Code Climate Maintainability](https://api.codeclimate.com/v1/badges/a28d2121cc8d9e720d6a/maintainability)](https://codeclimate.com/github/SixArm/sixarm_ruby_date_age/maintainability)
+[![Code Climate](https://api.codeclimate.com/v1/badges/a28d2121cc8d9e720d6a/maintainability)](https://codeclimate.com/github/SixArm/sixarm_ruby_date_age/maintainability)
 
-* Git: <https://github.com/sixarm/sixarm_ruby_date_age>
+* Git: <https://github.com/SixArm/sixarm_ruby_date_age>
 * Doc: <http://sixarm.com/sixarm_ruby_date_age/doc>
 * Gem: <https://rubygems.org/gems/sixarm_ruby_date_age>
 * Contact: Joel Parker Henderson, <joel@sixarm.com>
@@ -43,11 +43,13 @@ Example of custom dates:
 
 ### Gem
 
-Run this command in your shell or terminal:
+To install this gem in your shell or terminal:
 
     gem install sixarm_ruby_date_age
 
-Or add this to your Gemfile:
+### Gemfile
+
+To add this gem to your Gemfile:
 
     gem 'sixarm_ruby_date_age'
 
